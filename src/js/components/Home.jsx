@@ -14,7 +14,7 @@ const Home = () => {
 	function addTask({key}){
 		if (key == "Enter"){
 			if(inputValue.trim() == ""){
-				console.log("La tarea debe tenr valor")
+				console.log("La tarea debe tener valor")
 				return
 			}
 			setTodos((prev)=>prev.concat([inputValue]))
