@@ -30,17 +30,18 @@ input{
 
 ul{
     padding: 0;
-    margin-bottom: 5px;
-    border: 1px solid grey;
+    border: 1px solid  rgb(245, 245, 245);
     border-radius: 0%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 ul li{
     list-style: none;
+    border: 1px solid rgb(245, 245, 245);
     display: flex;
     justify-content: space-between;
     color: grey;
+    padding: 10px;
 }
 
 ul li:hover {
